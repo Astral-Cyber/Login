@@ -2,12 +2,12 @@
   <el-card class="box-card">
     <template #header>
       <div class="card-header">
-        <span>{{info.name}}</span>
+        <span>{{ info.name }}</span>
       </div>
     </template>
 
     <el-row>
-      <span style="font-size: large;font-weight: bolder;margin-left: 10px" >ID:{{info.id}}</span>
+      <span style="font-size: large;font-weight: bolder;margin-left: 10px">ID:{{ info.id }}</span>
     </el-row>
     <el-divider/>
     <div id="operate">
